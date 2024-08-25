@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+	.btn-components {
+		@apply border px-5 py-3 border-amber-200 text-amber-400;
+	}
+}
